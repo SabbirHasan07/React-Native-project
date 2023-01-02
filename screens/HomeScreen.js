@@ -29,7 +29,10 @@ const HomeScreen = () => {
 
     }
     if(confirm && verification === 'sabbir@gmail.com' && password === 'sabbir' ) {
-        navigate.navigate("Dashboard")
+        navigate.navigate("All About")
+    }
+    else{
+        alert('Wrong Email Id or Password')
     }
     
     
