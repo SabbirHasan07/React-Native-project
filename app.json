@@ -1,13 +1,14 @@
 {
   "expo": {
+    
     "name": "go-hero",
     "slug": "go-hero",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/restaurants.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/restaurants.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d90e25fa-e5b7-4ac1-a704-bf867bdbd2bd"
+      }
     }
   }
 }
