@@ -1,14 +1,13 @@
 {
   "expo": {
-    
     "name": "go-hero",
     "slug": "go-hero",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/restaurants.png",
+    "icon": "./assets/main.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/restaurants.png",
+      "image": "./assets/main.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,12 +22,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/main.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.sabbir146891.gohero"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/main.png"
     },
     "extra": {
       "eas": {
